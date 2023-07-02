@@ -1,0 +1,49 @@
+body {
+  /* background-color: #F8F9FA; */
+}
+
+
+h1 {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.list {
+  text-align: left;
+}
+.checked,
+.unchecked {
+  color: #0eaa66;
+  cursor: pointer;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.delete {
+  color: #c7435c;
+  font-size: 20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.note-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  text-align: center;
+}
+
+.items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
